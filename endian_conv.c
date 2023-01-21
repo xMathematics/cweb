@@ -14,5 +14,7 @@ int main(int argc, char *argv[])
     printf("host ordered part: %#x \n", host_port);
     
     printf("network ordered part: %#x \n", net_port);
+    printf("host ordered address: %#lx \n", host_addr);
+    printf("network ordered address: %#lx \n", net_addr);
     return 0;
 }
